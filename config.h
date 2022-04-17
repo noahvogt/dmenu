@@ -4,7 +4,7 @@
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Source Code Pro:size=10",
+	"JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true",
     "JoyPixels:pixelsize=8:antialias=true:autohint=true"
 };
 static const unsigned int bgalpha = 0xe0;
