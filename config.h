@@ -15,9 +15,14 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeNorm] = { "#bbbbbb", "#222222" },
 	[SchemeSel] = { "#eeeeee", "#005577" },
 	[SchemeOut] = { "#000000", "#00ffff" },
+	/* gruvbox colors */
 	[SchemeNorm] = { "#ebdbb2", "#282828" },
 	[SchemeSel] = { "#ebdbb2", "#98971a" },
 	[SchemeOut] = { "#ebdbb2", "#8ec07c" },
+	/* nord colors */
+	[SchemeNorm] = { "#D8DEE9", "#2E3440" },
+	[SchemeSel] = { "#2E3440", "#81A1C1" },
+	[SchemeOut] = { "#D8DEE9", "#A3BE8C" },
  };
  static const unsigned int alphas[SchemeLast][2] = {
 	/*		fgalpha		bgalphga	*/
@@ -36,4 +41,4 @@ static unsigned int lines      = 0;
 static const char worddelimiters[] = " ";
 
 /* Size of the window border */
-static unsigned int border_width = 3;
+static unsigned int border_width = 0;
